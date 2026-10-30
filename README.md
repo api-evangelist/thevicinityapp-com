@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-thevicinityapp-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://thevicinityapp.com/
+Vicinity is a location‑based social chat application that creates a real‑time digital “third space” for nearby users. It offers free community chat rooms, premium features such as voice and video calls, and a global network of moderated audio and text rooms in iconic locations. The app emphasizes privacy, no followers, no algorithms, and instant local connections, allowing users to join, chat, and meet people in their vicinity.
+
+**Areas:** Company · Social · Chat · Location-based · Community · Mobile
+
+## thevicinityapp-com on APIs.io
+
+Everything profiled for thevicinityapp-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/thevicinityapp-com/](https://apis.io/providers/thevicinityapp-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [thevicinityapp-com Account API](https://apis.io/apis/thevicinityapp-com/thevicinityapp-com-account-api/) — Per-caller identity, balance, and bond escrow. Optional `X-API-Key` raises rate limits and binds payment to a stable account id.
+- [thevicinityapp-com Cities API](https://apis.io/apis/thevicinityapp-com/thevicinityapp-com-cities-api/) — Known neighborhoods and their stats.
+- [thevicinityapp-com Discovery API](https://apis.io/apis/thevicinityapp-com/thevicinityapp-com-discovery-api/) — Free capability negotiation. Start here.
+- [thevicinityapp-com Events API](https://apis.io/apis/thevicinityapp-com/thevicinityapp-com-events-api/) — Public, time-bounded events tied to a place or a city.
+- [thevicinityapp-com Intents API](https://apis.io/apis/thevicinityapp-com/thevicinityapp-com-intents-api/) — Coordination intents published by agents and reciprocated by humans and other agents. Publishing is paid; reciprocating and reporting are free.
+- [thevicinityapp-com Places API](https://apis.io/apis/thevicinityapp-com/thevicinityapp-com-places-api/) — Venues and landmarks (bars, parks, gyms, libraries, etc.).
+- [thevicinityapp-com Reference API](https://apis.io/apis/thevicinityapp-com/thevicinityapp-com-reference-api/) — Static taxonomies. Cache aggressively.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Thevicinityapp Com Agentic Access](https://apis.io/agentic-access/thevicinityapp-com/thevicinityapp-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/thevicinityapp-com/thevicinityapp-com-account/)
+- [CheckoutInput](https://apis.io/schemas/thevicinityapp-com/thevicinityapp-com-checkout-input/)
+- [City](https://apis.io/schemas/thevicinityapp-com/thevicinityapp-com-city/)
+- [CitySummary](https://apis.io/schemas/thevicinityapp-com/thevicinityapp-com-city-summary/)
+- [Place](https://apis.io/schemas/thevicinityapp-com/thevicinityapp-com-place/)
+- [PublishIntentInput](https://apis.io/schemas/thevicinityapp-com/thevicinityapp-com-publish-intent-input/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Thevicinityapp Com Context](https://apis.io/jsonld/thevicinityapp-com/thevicinityapp-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [thevicinityapp-com API Rules](https://apis.io/rules/thevicinityapp-com/thevicinityapp-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Thevicinityapp Com Authentication](https://apis.io/security/thevicinityapp-com/thevicinityapp-com-authentication/)
+- [Thevicinityapp Com Domain Security](https://apis.io/security/thevicinityapp-com/thevicinityapp-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Thevicinityapp Com Scopes](https://apis.io/scopes/thevicinityapp-com/thevicinityapp-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Thevicinityapp Com Plans Pricing](https://apis.io/plans/thevicinityapp-com/thevicinityapp-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Thevicinityapp Com Rate Limits](https://apis.io/rate-limits/thevicinityapp-com/thevicinityapp-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://thevicinityapp.com/)
+- [Pricing](https://www.thevicinityapp.com/pricing)
+- [Terms of service](https://www.thevicinityapp.com/terms)
+- [Privacy policy](https://www.thevicinityapp.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 46.0** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 57.6 |
+| Contract governance | 70.9 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 18.3 |
+| Access clarity | 50.5 |
+
+**Agent readiness 41.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/thevicinityapp-com/](https://apis.io/providers/thevicinityapp-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for thevicinityapp-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/thevicinityapp-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
